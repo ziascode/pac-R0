@@ -1,8 +1,5 @@
 'use clinet';
-import Image from "next/image";
 import Link from "next/link";
-import { Inter } from 'next/font/google';
-import { motion } from "framer-motion";
 import { Poppins } from "next/font/google";
 
 const poppins100 = Poppins({
@@ -29,7 +26,12 @@ const SectionTwo = () => {
         </div>
         
         {/* impact box */}
-        <div className="relative  max-w-full p-6 pt-52 w-[50vw] border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 opacity-95 relative bg-[url('https://pennyappeal.ca/wp-content/uploads/2024/01/img2.jpg')] bg-cover bg-center"></div>
+        <div className="relative  max-w-full p-6 pt-52 w-[50vw] border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 opacity-95 relative bg-[url('https://pennyappeal.ca/wp-content/uploads/2024/01/img2.jpg')] bg-cover bg-center">
+        <div className='flex justify-center'>
+                    <Link href="https://pennyappeal.ca/">
+                    <button className='mb-36 px-10 py-3 bg-white border-white-10 rounded-full'>Donate</button>
+                    </Link>
+                </div></div>
 
       </section>
     </div>

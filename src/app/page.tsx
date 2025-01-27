@@ -2,7 +2,6 @@
 import './globals.css';
 import Image from "next/image";
 import Link from "next/link";
-import { Inter } from 'next/font/google';
 import SectionTwo from './components/sectiontwo';
 import { Poppins } from 'next/font/google';
 
@@ -24,7 +23,9 @@ export default function Home() {
                     <h1 className='font-sans font-bold text-5xl text-gray-900'>This Ramadan <br/> Support the Ummah Where Most Needed</h1>
                 </div>
                 <div className='flex justify-center'>
+                    <Link href="https://pennyappeal.ca/">
                     <button className='mb-36 px-10 py-3 bg-white border-white-10 rounded-full'>Donate</button>
+                    </Link>
                 </div>
                 
             </div>
