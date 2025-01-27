@@ -24,7 +24,7 @@ const SectionTwo = () => {
 
         {/* Text*/}
         <div className="max-w-2xl pt-32 flex flex-col gap-5 text-white"> 
-          <h2 className={`text-7xl ${poppins600.className}`}>Make a powerful impact</h2>
+          <h2 className={`text-7xl ${poppins600.className}`}>Make powerful impacts</h2>
           <p className={`text-xl ${poppins100.className}`}>By giving to the Where Most Needed Fund, you ensure that your donation goes to those that need it most. Your dollar will be distrubted between all of our programs</p>
         </div>
         
