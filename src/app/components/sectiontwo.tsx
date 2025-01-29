@@ -1,11 +1,7 @@
-'use clinet';
+'use client';
 import Link from "next/link";
 import { Poppins } from "next/font/google";
 
-const poppins100 = Poppins({
-  subsets: ["latin"],
-  weight: "200"
-});
 
 const poppins600 = Poppins({
   subsets: ["latin"],

@@ -1,25 +1,21 @@
 'use client';
 import './globals.css';
-import Image from "next/image";
 import Link from "next/link";
 import SectionTwo from './components/sectiontwo';
 import { Poppins } from 'next/font/google';
-import Modal from './components/video';
+// import Modal from './components/video';
 
 
 const poppins700 = Poppins({
   subsets: ["latin"],
   weight: "700"
 })
-const poppins100 = Poppins({
-  subsets: ["latin"],
-  weight: "200"
-});
 
-const poppins600 = Poppins({
-  subsets: ["latin"],
-  weight: "600"
-})
+
+// const poppins600 = Poppins({
+//   subsets: ["latin"],
+//   weight: "600"
+// })
 
 export default function Home() {
   return (
@@ -183,7 +179,7 @@ export default function Home() {
               </div>
               
               {/* Video section */}
-              <div className='flex justify-center py-40 max-w-[80vw] gap-10'>
+              {/* <div className='flex justify-center py-40 max-w-[80vw] gap-10'>
                 
                  <div className="rounded-xl shadow-xl dark:bg-gray-800 dark:border-gray-700 py-28 px-24 bg-[url('https://pennyappeal.ca/wp-content/uploads/2024/04/RS33823_DSC05806-Edit-scaled-e1713265081474.jpg')]  bg-cover bg-center">
                   
@@ -201,7 +197,7 @@ export default function Home() {
                 </div>
 
                
-              </div>
+              </div> */}
               
 
               </div>
